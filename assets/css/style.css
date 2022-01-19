@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+#menu-test ul {
+    list-style:none;
+    padding:0;
+    background-color: rgb(170, 75, 162);
+}
+
+#menu-test ul li  {
+
+    display: inline;
+}
+
+#menu-test ul li a{
+
+    display:inline-block;
+    color:rgb(219, 236, 227);
+    text-decoration: none;
+    padding:20px;
+    transition: background .3s;
+    
+}
+
+#menu-test ul li a:hover {
+
+    background-color:skyblue;
+}
+#menu-test ul li:last-child a  {
+
+    float: right;
+    background-color:rgba(185, 180, 214, 0.493);
+}
+
+body {
+
+    font-family: 'Libre Baskerville', serif;
+    background-image: linear-gradient(rgb(238,161,171),rgb(161, 221, 217),rgb(229, 241, 239));
+    background-attachment: fixed;
+    /* border:5px solid rgb(244, 235, 245); */
+}
+
+
+/* SECTION 1 - HEADER */
+
+.container1 {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.tamanho-img1 {
+
+    height: 300px;
+}
+
+.align-figcaptions {
+
+    text-align: center;
+    font-size: 13px;
+}
+
+h1 {
+
+    font-size: 55px;
+    color:rgb(223 226 227);
+    text-shadow: 2px 3px 3px rgb(37, 153, 248);
+}
+
+h2 {
+    color: rgb(159 82 121);
+    text-shadow: 2px 3px 4.5px rgb(65 172 215);
+    font-size: 27px;
+}
+.padding-div2-header {
+
+    padding-right: 25px;
+}
+
+.edit-description {
+    text-align: justify;
+}
+
+
+/* SECTION 2 */
+
+.container2 {
+
+    display:flex;
+    justify-content:flex-start;
+}
+
+.styling-items {
+
+    border: 5px dotted rgb(235, 152, 163);
+    width: 68%;
+    padding: 15px;
+    margin: 5px;
+}
+
+.item1 {
+
+    order: 1;
+    text-align:center;
+}
+
+.item2 {
+
+    order:2;
+    text-align: justify;
+}
+
+.container2-2 {
+
+    display:flex;
+    flex-direction:column;
+    gap:6px; 
+}
+
+.item3 {
+    height: 400px;
+    width:600px;
+    align-self:center;
+}
+
+.figcap-container2-2 {
+
+    align-self:center;
+    font-size:small;
+}
+
+.altura-img2 {
+    
+    height:666px;
+}
+
+
+/*SECTION 3*/
+
+.container3{
+
+    display: flex;
+    justify-content: center;   
+}
+
+.align-Cont3 {
+
+    width:1460px;
+    height:123px;   
+}
+
+.align-p-container3 {
+
+    text-align:justify;
+}
+
+
+/* ULTIMA SECTION*/
+
+.container4  {
+
+    display:flex;
+    justify-content:space-around;
+}
+
+.container4-1 {
+
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+    height:650px;
+}
+
+.figcap-font-size {
+
+    align-self:center;
+    font-size:small;
+}
+
+.div-size-container4 {
+
+    width:947px;
+}
+
+.div2-size-container4{
+
+    width:404px;
+}
